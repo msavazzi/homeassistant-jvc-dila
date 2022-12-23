@@ -16,7 +16,7 @@ The `var` component is a Home Assistant integration for declaring and
 
 
 ### INSTALLATION VIA HACS
-1. Ensure that [HACS](https://custom-components.github.io/hacs/) is installed.
+1. Ensure that [HACS](https://hacs.xyz/) is installed.
 2. Search for and install the "Variable" integration.
 3. Add a `var` entry to your `configuration.yaml`.
 4. Restart Home Assistant.
