@@ -17,3 +17,5 @@ binary_sensor:
     host: <ip address of the projector>
     port: <port of the projector, default is 20554>
     scan_interval: <must be bigger than 1 as that is the tcp timeout.>
+
+4) restart Home Assistant
