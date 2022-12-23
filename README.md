@@ -6,7 +6,7 @@ The `var` component is a Home Assistant integration for declaring and
 
 ### MANUAL INSTALLATION
 1. Download the
-   [latest release](https://github.com/msavazzi/homeassistant-jvc-dila).
+   [latest release](https://github.com/msavazzi/homeassistant-jvc-dila/releases/tag/tcp_based).
 2. Unpack the release and copy the `custom_components/jvc_dila` directory
    into the `custom_components` directory of your Home Assistant
    installation.
