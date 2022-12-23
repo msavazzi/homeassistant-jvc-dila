@@ -1,0 +1,9 @@
+{
+  "domain": "jvc_dila",
+  "name": "JVC DILA",
+  "version": "1.0.0",
+  "documentation": "https://github.com/msavazzi/homeassistant-jvc-dila",
+  "codeowners": ["@msavazzi"],
+  "iot_class": "local_polling",
+  "icon": "mdi:projector"
+}
