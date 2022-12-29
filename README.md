@@ -26,13 +26,13 @@ sensor:
   - platform: jvc_dila
     host: 192.168.1.2
     port: 20554
-    scan_interval: 3
+    scan_interval: 10
 
 binary_sensor:
   - platform: jvc_dila
     host: 192.168.1.2
     port: 20554
-    scan_interval: 3
+    scan_interval: 10
 ```
 
 ### CONFIGURATION VARIABLES
@@ -49,7 +49,7 @@ binary_sensor:
 * **scan_interval**
   *(int)(Optional)*
   Number of seconds between queries to the projector
-  must be bigger than 1 as that is the tcp timeout.
+  must be bigger than 8 due to the internal timeouts the JVC DILA Projector requires.
 
 ## Why?
 
