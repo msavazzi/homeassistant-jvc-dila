@@ -1,6 +1,7 @@
 # JVC DILA sensor for Home Assistant
 
-The `var` component is a Home Assistant integration for declaring and
+WARNING: if you configure both the BinarySensor and the Sensor you'll get errors. Use one of them.
+Working on a new version to solve it
 
 ## Installation
 
